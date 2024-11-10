@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'font-tittle';
+    src: url(../fonts/Griffy-Regular.ttf);
+}
+.header{
+    padding: 20px;
+}
+.box-tittle{
+    margin-right: 10%;
+    transition: transform 0.5s ease, height 0.5s ease;
+}
+.box-tittle:hover{
+    transform: scale(1.1);
+}
+.tittle-icon{
+    height: 40px;
+
+}
+.tittle{
+    margin-top: 10px;
+    font-family: 'font-tittle';
+    font-size: 20px;
+    color: #9eb1de ;
+}
+.box-buttons{
+   margin-left: 30%;
+}
+.btn-header{
+    background-color: transparent;
+    border: none;
+    color: #9eb1de;
+    width: 100px;
+    transition: color 0.5s ease;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: transform 0.5s ease, height 0.5s ease;
+}
+.btn-header:hover{
+    color: white;
+    transform: scale(1.1);
+}
